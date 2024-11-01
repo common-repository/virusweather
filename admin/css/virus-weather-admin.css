@@ -1,0 +1,472 @@
+
+.mw-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba( 0,0,0, 0.7 );
+    width: 100%;
+    height: 100%;		
+    z-index: 10000;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mw-popup img {
+    margin: 0 auto;
+}
+
+.mw-popup span {
+    padding: .5em 0;
+    font-size: 1.1em;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.virus-weather-shortcode-value {
+    display: block;
+    background: #f7f7f7;
+    width: 100%;
+    padding: .2em .4em;			
+}
+
+.virusweather-size-range {
+    white-space: nowrap;
+}
+
+#viewBlock img:hover{
+    cursor: zoom-in;
+}
+
+.virusweather-autocomplete {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+.vw-label input[type=radio] {
+    border-radius: 50%;
+    margin-right: .25rem;
+    line-height: .71428571;
+    margin: auto;
+}
+h2.titleSelect{
+    margin-top: 20px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.virusweather-autocomplete-items {
+    margin-top: .5em;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;			    
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;			   
+}
+
+.virus-weather-generator .virusweather-autocomplete-items {
+    width: 60%;
+    /*margin-top: 36%;*/
+    position: absolute;
+}
+
+.seloc{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.virus-weather-country{
+    position: relative;
+}
+
+.virusweather-autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+.virusweather-autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+.virusweather-autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: #e9e9e9 !important;
+
+}
+
+.virus-weather-selected-location {
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.vw-option-wrap.widget-content.widget{
+        box-sizing: inherit;
+} 
+
+
+.virus-weather-generator h1 {
+    margin: 1em 0 1.5em 0;
+    text-align: center;
+    line-height: 27px;
+}
+
+
+.vw-option-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 64em;
+    background: #fff;
+    margin: 20px auto;
+    padding: 0 20px 20px 20px;
+}
+
+.radioImage.horizontalBanner{
+    max-width: 100%;
+    width: 89%;
+}
+
+
+.vw-option-wrap .selectHeader {
+    flex: 1 1 100%;
+}
+
+.vw-option-wrap > .selectHeader {
+    font-size: 1.8em;
+    margin-top: 1em;
+    text-align: center;
+    line-height: 25px;
+}
+
+.vw-option-select {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+#selectLocation .vw-option-select {
+    position: relative;
+}
+
+.vw-option-type .vw-option-select {
+    flex: 0 0 33%;
+}
+.vw-option-type .vw-option-select:last-child {
+    margin-top: 3em;
+    flex: 1 1 100%;
+}
+
+.vw-option-middle {
+    align-self: flex-start;
+    text-transform: uppercase;
+    padding: 4.4em 2em 0 2em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.virus-weather-static-selector {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+.virus-weather-static-selector label {
+    margin-right: .4em;
+    font-size: 15px;
+    font-weight: bold;
+}
+.virus-weather-static-selector label:after {
+    content: ':';
+}
+
+.virus-weather-static-selector input,
+.virus-weather-static-selector #widget-virus_weather_widget-state ,
+.virus-weather-static-selector #widget-virus_weather_widget-county {					
+    max-width: 19em;
+    flex: 0 1 75%;
+    margin-left: 4%;					
+}
+
+.vw-label {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+	.vw-label-fullwidth {
+		flex: 1 1 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.vw-label-fullwidth:nth-child(2) .selectHeader2  {
+		margin: .5em auto;
+	}
+
+.wp-core-ui button.copy_button {
+    font-size: 20px;
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: #434541;
+    color: #cfcfcf;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.wp-core-ui button.copy_button:hover {
+    font-size: 20px;
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: #434541;
+    color: #cfcfcf;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.vw-option-wrap.vw-option-code-type .vw-option-select {
+    flex: 0 0 auto;
+    margin: auto;
+}
+
+.generateCode{
+    text-align: center;
+}
+
+.wp-core-ui .generateCode .button-primary{
+    font-size: 25px;
+    padding: 5px 70px;
+    display: inline-block;
+    background-color: #434541;
+    color: #cfcfcf;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.vw-option-wrap.vw-option-type .vw-label {			
+    flex-direction: column;
+}
+
+.vw-option-wrap.vw-option-code-type .vw-label img {
+    max-height: 2.5em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+.dynamic_box_text{
+    padding: 10px 2.3em;
+}
+
+.dynamic_box{
+    padding: 10px 5em 0 5em;
+}
+
+.geolocation{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 1em;
+}
+
+.vw-label input + img {
+    margin-left: 2em;
+    max-height: 7em;
+    object-fit: cover;
+}
+
+
+.vw-option-middle-or{
+    padding: 14px;
+    font-size: 2.4em;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.radioImage {
+    max-width: 80%;
+}
+
+.vw-label p {
+    margin-top: .5em;
+    flex: 1 1 100%;
+    font-size: 1.2em;
+}
+
+.vw-description-note {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.vw-option-buttons {
+    display: block;
+}
+
+.vw-option-buttons .generate_button  {
+    font-size: 1.2em;
+    display: block;
+    margin: 1em auto;
+}
+
+.vw-generated-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.dynamic_static_widget_get_code {
+    display: none;
+}
+
+.dynamic_static_widget_get_code.active {
+    display: flex;
+}
+
+
+.vw-generated-code .source-code {
+    display: block;
+    padding: .5em;
+    font-size: 1.2em;
+    min-height: 10em;
+    font-family: 'Courier New';
+    margin: 1em auto;
+    width: 100%;
+}
+
+.vw-footer {
+    padding: 2em 0;
+}
+
+#previewImg {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+
+.zoomed-in {
+    width: 90vw;
+    height: 90vh;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+
+#virus-weather-tooltip {
+    display: none;
+    font-size: 0.9em;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: auto;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.ads-hide2{
+    max-width: 350px;
+}
+
+
+#ads {
+    width: auto;
+    margin-top: 212px; 
+}
+
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+
+#viewBlock img {
+    border: 1px solid #969795;
+    padding: 5px;
+    width: 96% !important;
+}
+    .dynamic_box .radioImage {
+        max-width: initial;
+    }
+
+@media screen and (max-width: 782px){
+    #ads {
+        display: none;
+    }
+    .virus-weather-static-selector #widget-virus_weather_widget-state{
+        width: 100% !important;
+    }
+    .content {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+
+    .dynamic_box {
+        padding: 10px;
+    }
+    .vw-option-select {
+        flex: inherit;
+        text-align: center;
+    }
+
+    .imgHoriz{
+        width: 100%;
+        height: initial;
+    }
+
+
+    .virus-weather-static-selector input{
+        width: 100%;
+    }
+    .vw-label {
+        display: block;
+    }
+    #selectLocation .vw-option-select {
+        margin: auto;
+    }
+    .virus-weather-static-selector #widget-virus_weather_widget-county {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 905px){
+    .vw-label input[type=radio] {
+        margin-top: 15px;
+        display: block;
+    }
+    .dynamic_box .radioImage {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .wp-core-ui .generateCode .button-primary {
+        font-size: 14px;
+        padding: 0;
+        display: inline-block;
+        background-color: #434541;
+        color: #cfcfcf;
+        text-decoration: none;
+        font-weight: 700;
+        width: 100%;
+    }
+    #previewImg img{
+        width: 100%;
+        height: auto;
+    }
+}
